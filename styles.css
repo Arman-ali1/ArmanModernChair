@@ -20,7 +20,104 @@ body {
   padding: 0;
   overflow-x: none;
 }
+.navbar{
+  position: relative;
+  display: block;
+  width: 98vw;
+  height: 75px;
+  overflow: hidden;
+}
 
+.icon{
+  width: 170px;
+  float: left;
+  height: 75px;
+  padding-left: 22px;
+}
+
+.logo{
+  color: #ff6161;
+  font-size: 31px;
+  font-family:'Qwitcher Grypen', cursive;
+  float: left;
+  margin-top: 20px;
+}
+
+.menu{
+  width: 670px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 30px;
+  font-size: 16px;
+  
+}
+
+ul li a{
+  text-decoration: none;
+  color: #f1f3f6;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+   color: #ff6161;
+}
+
+.search{
+  width: 460px;
+  float: left;
+  margin-left: 20px;
+}
+
+.srch{
+  font-family: 'Times New Roman', Times, serif;
+  width: 360px;
+  height: 35px;
+  background: transparent;
+  margin-top: 25px;
+  border: 2.3px solid  #ff6161;
+  color: #fff;
+  border-right: none;
+  font-size: 17px;
+  float: left;
+  padding: 15px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  
+}
+
+.btnn{
+  width: 100px;
+  height: 35px;
+  background: #ff6161;
+  border: 2px solid  #ff6161;
+  margin-top: 25px;
+  color: #fff;
+  font-size: 18px;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btnn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none ;
+}
 p {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -44,7 +141,7 @@ p {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 100px 0;
+  padding: 51px 0;
   
 }
 
@@ -182,7 +279,7 @@ label.color-6 {
   }
 }
 
-.back-color {
+/* .back-color {
   position: fixed;
   top: 0;
   left: 0;
@@ -193,7 +290,7 @@ label.color-6 {
   background-image: linear-gradient(196deg, #f1a9a9, #e66767);
   transition: all 250ms linear;
   transition-delay: 300ms;
-}
+} */
 .back-color.chair-2 {
   background-image: linear-gradient(196deg, #4c4c4c, #262626);
   opacity: 0;
